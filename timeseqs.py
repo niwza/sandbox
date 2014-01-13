@@ -1,4 +1,4 @@
-import sys, mytimer    # Импортирует функцию timer 
+import sys, mytimer    # Импортирует функцию timer test
 reps = 10000
 repslist = range(reps) # Вызов функции range вынесен за пределы цикла в 2.6
  
