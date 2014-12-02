@@ -7,7 +7,7 @@ numbers = []
 total = 0
 lowest = None
 highest = None
-
+ 
 while True:
     try:
         line = input("enter a number or Enter to finish: ")
@@ -22,9 +22,11 @@ while True:
             highest = number
     except ValueError as err:
         print(err)
-
+ 
 print("numbers:", numbers)
 if numbers:
     print("count =", len(numbers), "sum =", total,
           "lowest =", lowest, "highest =", highest,
           "mean =", total / len(numbers))
+
+
