@@ -37,5 +37,5 @@ if len(sys.argv) > 1:
         words = None
     else:
         words = [n.lower() for n in sys.argv[1:]]
-if words != None:
+if words is not None:
     print_unicode_table(words)
